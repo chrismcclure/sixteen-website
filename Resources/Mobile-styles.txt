@@ -1,1 +1,23 @@
-Mobile-styles
+Mobile Stylesheet
+
+HEADER
+height: 40px;
+backgroundcolor: #acd373
+
+LOGO
+Left: 30px;
+vertically centered
+
+NAV BUTTON
+height: 40
+width: 40
+backgroundcolor: #89a85c 
+    icon-nav -  vertically & horizontally centered    
+    
+FIRST SECTION
+backgroundcolor: #9abd67 (plus skyline image)
+
+HEADER TEXT
+Font: Source Sans Pro Bold;
+font-size: 20px;
+color: #f7f7f7;

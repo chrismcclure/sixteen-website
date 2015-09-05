@@ -4,7 +4,7 @@ HEADER
 height: 40px;
 backgroundcolor: #acd373
 
-LOGO
+SIXTEEN LOGO
 Left: 30px;
 vertically centered
 
@@ -21,3 +21,59 @@ HEADER TEXT
 Font: Source Sans Pro Bold;
 font-size: 20px;
 color: #f7f7f7;
+test-alignment: Center;
+
+SUB HEADER
+Font:  Droid Serif Italic
+font-size: 13 pt;
+color: #f7f7f7;
+test-alignment: Center;
+
+SECOND SECTION
+backgroundcolor: #f7f7f7;
+length: 500px;
+
+PHONE IMAGE
+Horizontally centered
+Down From Seperation: 43px;
+
+GUY WITH GLASSES IMAGE
+Down From Seperation: 286px;
+Left: 30px
+
+TEXT TO THE RIGHT OF GUY
+Font: Source Sans Pro Regular;
+font-size: 18pt;
+color: #454545;
+Down from Seperation: 295px;
+Left: 67px;
+
+PARAGRAPH TEXT
+Font: Source Sans Pro Regular;
+font-size: 13 pt;
+Down from Seperation: 342px;
+Left: 29px;
+color: #454545;       
+
+LEARN MORE BUTTON
+Size: width 90, height 30
+Border: #acd373, solid, 3pt(how to figure this out)
+Left align: 30px;
+Down from Seperation: 423px;
+
+VIDEO IMAGE
+No border or spacing.
+
+PLAY BUTTON
+centered on Video Image hor and vert
+
+THIRD SECTION
+                                
+
+
+
+
+
+
+
+

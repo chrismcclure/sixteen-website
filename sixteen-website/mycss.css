@@ -1,0 +1,71 @@
+body {
+ width: 360px;
+
+}
+
+div {
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: #acd373;
+    height: 40px;
+}
+
+#sixteen{
+     left: 30px;
+    position: relative;
+       top: 50%;
+        transform: translateY(-50%);
+}
+
+
+.Nav_Btn {
+	background-color: #89a85c;
+    height: 40px;
+    width: 40px;
+   float: right;
+}
+
+#ham-btn{
+        position: relative;
+        left: 40%;
+        transform: translateY(-50%);
+        top: 40%;
+        transform: translateY(-50%);
+}
+
+.first{
+     background-color: #9abd67;
+    height: 350px;
+    position: relative;
+    margin-top: -14px;
+    /*  why did I have to do this */
+
+}
+
+#first_h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #f7f7f7;
+    text-align: center;
+    padding-top: 125px;
+}
+
+#first_h2{
+    position: relative;
+    color: #f7f7f7;
+    text-align: center;
+    font-family: Droid Serif;
+    font-style: italic;
+    font-size: 13px;
+}
+
+#sil{
+     	position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}

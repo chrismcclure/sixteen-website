@@ -1,22 +1,25 @@
 body {
- width: 360px;
+ width: 100%;
 
 }
 
 div {
-    margin: 0;
-    padding: 0;
+
 
 }
 
+
+/* Header Section */
 header{
     background-color: #acd373;
     height: 40px;
+    width: 100%;
+    position: relative;
 }
 
 #sixteen{
      left: 30px;
-    position: relative;
+    position: absolute;
        top: 50%;
         transform: translateY(-50%);
 }
@@ -37,35 +40,100 @@ header{
         transform: translateY(-50%);
 }
 
-.first{
+
+/* First Section */
+.first_section{
      background-color: #9abd67;
     height: 350px;
     position: relative;
-    margin-top: -14px;
+
+/*    margin-top: -14px;*/
     /*  why did I have to do this */
 
 }
 
+.first_section_text {
+    position: absolute;
+    text-align: center;
+    color: #f7f7f7;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
 #first_h1{
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
     font-size: 20px;
-    color: #f7f7f7;
-    text-align: center;
-    padding-top: 125px;
 }
 
 #first_h2{
-    position: relative;
-    color: #f7f7f7;
-    text-align: center;
     font-family: Droid Serif;
     font-style: italic;
     font-size: 13px;
 }
 
 #sil{
-     	position: absolute;
+    position: absolute;
     bottom: 0px;
     left: 0px;
+    width: 100%;
 
 }
+
+
+.circle_face {
+    border: 5px #acd373 solid;
+    border-radius: 100%;
+    margin: auto 0;
+}
+
+/* Second Section */
+.second_section {
+	height: 500px;
+    width:100%;
+    background-color: #f7f7f7;
+
+    position: relative;
+
+}
+
+.img_phone img {
+    margin-top: 43px;
+    margin-left: 40%;
+}
+
+.who_we_are {
+    margin-top: 36px;
+    margin-left: 30px;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #454545;
+
+}
+
+.who_we_are p {
+	font-size: 13px;
+}
+
+#side_text{
+    font-size: 18px;
+    position: absolute;
+
+}
+
+
+
+#button {
+    background-color: #f7f7f7;
+    color: #acd373;
+    border: solid 1.5px;
+    font-family: Droid Serif;
+    font-style: italic;
+    width: 90px;
+    height: 30px;
+    font-size: 11px;
+    margin-top: 30px;
+
+}
+

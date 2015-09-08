@@ -80,8 +80,6 @@ header{
 }
 
 
-
-
 /* Second Section */
 .second_section {
 	height: 500px;
@@ -250,12 +248,79 @@ font-size: 12px;
     /* There has to be a better way that guessing*/
     border: 5px #acd373 solid;
     border-radius: 100%;
-    left: 60px;
+    left: 55px;
     top: -30px;
     position: absolute;
 }
 
+.arrows{
+  position: absolute;
+    top: 233px;
+}
+
+#left_arrow{
+    left: 30px;
+
+}
+
+#right_arrow{
+    right: 30px;
+}
+
+/*
+.stupid_text {
+	margin-top: 80px;
+}
+*/
+
+#ceo_name{
+color: #acd373;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+#ceo_title{
+color: black;
+    margin-top: 15px;
+}
 
 
+.ceo_social_buttons {
+	display: inline;
+    position: absolute;
+    bottom: 14px;
+    left: 63px;
+}
+
+
+.Hiring_section {
+    display: block;
+	height: 66px;
+    width: 360px;
+    position: absolute;
+    bottom: 0;
+    background-color: #9abd67;
+}
+
+.Hiring_section p {
+    position: absolute;
+    left: 30px;
+    bottom: 14px;
+    padding-left: 0px;
+    color: #f7f7f7;
+
+}
+
+#hiring_button{
+    border: 1px solid #f7f7f7;
+    position: absolute;
+    bottom: 13px;
+    right: 31px;
+    color: #f7f7f7;
+    background-color: #9abd67;
+    height: 30px;
+    width: 100px;
+
+}
 
 

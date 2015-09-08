@@ -1,5 +1,7 @@
 body {
- width: 100%;
+ width: 360px;
+   margin: auto;
+    border: 1px solid black;
 
 }
 
@@ -46,10 +48,6 @@ header{
      background-color: #9abd67;
     height: 350px;
     position: relative;
-
-/*    margin-top: -14px;*/
-    /*  why did I have to do this */
-
 }
 
 .first_section_text {
@@ -82,23 +80,20 @@ header{
 }
 
 
-.circle_face {
-    border: 5px #acd373 solid;
-    border-radius: 100%;
-    margin: auto 0;
-}
+
 
 /* Second Section */
 .second_section {
 	height: 500px;
     width:100%;
     background-color: #f7f7f7;
-
     position: relative;
+
 
 }
 
 .img_phone img {
+    display: block;
     margin-top: 43px;
     margin-left: 40%;
 }
@@ -124,7 +119,7 @@ header{
 
 
 
-#button {
+.button {
     background-color: #f7f7f7;
     color: #acd373;
     border: solid 1.5px;
@@ -135,5 +130,132 @@ header{
     font-size: 11px;
     margin-top: 30px;
 
+
 }
+
+.Video {
+    margin-top: 0px;
+	position: relative;
+    display: block;
+}
+
+#playbutton{
+    display: block;
+    position: absolute;
+    top: 96px;
+    left:136px;
+}
+
+/*  Services Section */
+
+.Services_Section {
+	background-color: #f7f7f7;
+}
+
+.Our_Serivces {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    font-size: 18px;
+    height: 129px;
+
+}
+
+#services_text {
+    color: #acd373;
+}
+
+#sub_service{
+    font-family: Droid Serif;
+    font-size: 12px;
+}
+
+/* Three Blocks of Services */
+
+.Service_Block {
+    height: 82px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*Noticed That My Text Is Aligned To Images Not Each Other*/
+.service_images{
+    float: left;
+    margin-right: 15px;
+}
+
+.Service_Block p {
+    font-family: Droid Serif;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.service_head {
+	text-transform: uppercase;
+    color: #acd373;
+    font-size: 14px;
+}
+
+.service_sub {
+	font-size: 13px;
+    padding-bottom: 100px;
+}
+
+#service_button{
+margin-left: 123px;
+    margin-bottom: 48px;
+
+}
+
+/* Meet Team Section */
+
+.Meet_Team {
+	height: 484px;
+    position: relative;
+    background-color: #acd373;
+    font-family: 'Source Sans Pro', sans-serif;
+     font-weight: bold;
+    color: #f7f7f7;
+    text-align: center;
+    margin-top: -16px;
+}
+
+#meet_head{
+    text-transform: uppercase;
+    padding-top: 43px;
+    font-size: 18px;
+    margin-bottom: -10px;
+
+}
+
+#meet_sub{
+font-size: 12px;
+    margin-bottom: -2px
+}
+
+
+
+#white_box{
+    height: 186px;
+    width: 200px;
+    border-radius: 3%;
+    background-color: #f7f7f7;
+    position: absolute;
+    left: 80px;
+    top: 177px;
+}
+
+.circle_face {
+    /* There has to be a better way that guessing*/
+    border: 5px #acd373 solid;
+    border-radius: 100%;
+    left: 60px;
+    top: -30px;
+    position: absolute;
+}
+
+
+
+
 

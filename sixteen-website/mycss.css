@@ -415,11 +415,13 @@ color: black;
     left: 62px;
 }
 
-.green_circle img {
-    /* re-sliced each image, might need to style individually*/
+.image_box {
+    /* Can't figure out how to get all the images in the box correctly */
+      width: 35px;
+    height: 35px;
  position: absolute;
-    bottom: 6px;
-    left: 6px;
+    bottom: -8px;
+    left: 7px;
 }
 
 
@@ -444,6 +446,26 @@ color: black;
 	position: relative;
     height: 740px;
     background-color: #acd373;
-
 }
+
+.Newsletter {
+	height: 60px;
+}
+
+.map_container {
+	background-image: url(images/map-bkg_130.jpg);
+}
+
+.footer {
+	height: 100px;
+    background-color: #9abd67;
+}
+
+.footer_social_buttons {
+	display: inline;
+}
+
+
+
+
 

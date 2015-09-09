@@ -150,7 +150,7 @@ header{
 	background-color: #f7f7f7;
 }
 
-.Our_Serivces {
+.Head_combo1 {
     text-align: center;
     margin-top: 40px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -160,13 +160,14 @@ header{
 
 }
 
-#services_text {
+#green_text {
     color: #acd373;
 }
 
-#sub_service{
+#sub_combo1 {
     font-family: Droid Serif;
     font-size: 12px;
+    text-align: center;
 }
 
 /* Three Blocks of Services */
@@ -330,15 +331,39 @@ color: black;
     background-color: #f7f7f7;
 }
 
-.Recent_Work_Headline {
-	height: 144px;
-    text-align: center;
+#Recent_Work_Headline {
+	text-transform: capitalize;
 }
 
 
+#main_image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+#leroy_themes{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #454545;
+}
 
+#works_button{
+display: block;
+    margin-top: 50px;
+  margin-right: auto;
+    margin-left: auto;
+}
 
+.Works_logos {
+	display: inline;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
 
 
 
@@ -350,9 +375,78 @@ color: black;
     background-image: url(images/bg-test.jpg.jpg);
 }
 .testimonial_quote {
+    position: absolute;
 	width: 300px;
     height: 85px;
     border: 2px solid #e1e2e3;
+    left: 30px;
+    top: 60px;
+}
+
+.testimonial_quote p {
+    font-family: Droid Serif;
+    font-size: 12px;
+    color: #d9d5d3;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+#qoutes{
+     font-family: Droid Serif;
+    position: absolute;
+    left: 270px;
+    top: 60px;
+    font-size: 48.64px;
+    color: #d9d5d3;
+}
+
+
+.pic_name_block {
+	display: block;
+    width: 300px;
+    position: absolute;
+   top: 200px;
+
+    left: 50px;
+}
+
+.pic_name_block img {
+	border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+
+/*
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+*/
+
+}
+
+
+#John_Doe_Name{
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #acd373;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#smash_mag{
+ font-style: italic;
+    font-size: 12px;
+    font-family: Droid Serif;
+    color: #babcbf;
+}
+
+.circle_holder {
+	display: inline;
+    position: absolute;
+    left: 160px;
+    top: 300px;
+
 }
 
 .filled_circle {
@@ -361,14 +455,53 @@ color: black;
     background-color: #f7f7f7;
     border-radius: 100%;
     border: 2px solid #f7f7f7;
+    float: left;
+    margin: 3px;
 }
 
+
 .empty_cicle {
+    float: left;
 	width: 10px;
     height: 10px;
+    margin: 3px;
     border-radius: 100%;
     border: 2px solid #f7f7f7;
 }
+
+
+.Test_text_block {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    position: absolute;
+    top: 330px
+}
+
+#Testimonial_Head{
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #e3e3e4;
+    font-size: 18px;
+}
+
+#Testimonial_Body{
+font-family: 'Source Sans Pro', sans-serif;
+    color: #e3e3e4;
+    font-size: 13px;
+}
+
+
+#test_button{
+position: absolute;
+    width: 130px;
+    height: 30px;
+   bottom: 50px;
+    left: 30px;
+    background: none;
+}
+
+
 
 
 /* Blog Section */
@@ -376,14 +509,30 @@ color: black;
     position: relative;
     height: 615px;
     background-color: #f7f7f7;
+    margin-top: -16px;
+
 }
 
 .title_sub_line{
     height: 139px;
-    border: 1px solid red;
-    margin: 0px;
     text-align: center;
+    color: #454545;
 }
+
+#blog_head{
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+#blog_sub{
+ font-family: Droid Serif;
+    font-size: 12px;
+
+}
+
+
 
 .blog_entry{
     display: block;

@@ -1,14 +1,105 @@
-body {
- width: 360px;
-   margin: auto;
-    border: 1px solid black;
+html {
+ background-color: black;
+}
 
+body {
+    width: 360px;
+    margin: auto;
+    border: 1px solid black;
 }
 
 div {
 
+}
+
+header{
+
 
 }
+
+section {
+
+
+/*    border: solid 1px pink;*/
+}
+
+
+/* Style all default h1, h2, h3 in document  */
+
+h1, h2, h3{
+    text-align: center;
+}
+
+
+h1{
+    padding-top: 125px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 40px; /*Helps align to top of previous section */
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: Droid Serif;
+    font-size: 12px;
+    Color: #454545;
+
+}
+
+/*  Individual Styles for h2, h3, seperatebar tags */
+
+
+#h2_ver_1 {
+    margin-top: -40px;
+    font-family: Droid Serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #f7f7f7;
+    text-transform: none;
+}
+
+#h2_ver_2{
+    color: : #454545;
+
+}
+
+#h2_ver_3{
+    color: #f7f7f7;
+}
+
+
+#h3_ver_1{
+    color: #f7f7f7;
+}
+
+#green_text {
+    color: #acd373;
+}
+
+.stupid_bars{
+    display: block;
+    margin: auto;
+}
+
+
+/* remove of bullet and left margin from ul */
+ul {
+    list-style-type: none;
+}
+
+li{
+    margin-left: -10px
+}
+
+
 
 
 /* Header Section */
@@ -20,55 +111,42 @@ header{
 }
 
 #sixteen{
-     left: 30px;
+    left: 30px;
     position: absolute;
-       top: 50%;
-        transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
 }
-
 
 .Nav_Btn {
 	background-color: #89a85c;
     height: 40px;
     width: 40px;
-   float: right;
+    float: right;
 }
 
 #ham-btn{
-        position: relative;
-        left: 40%;
-        transform: translateY(-50%);
-        top: 40%;
-        transform: translateY(-50%);
+    position: relative;
+    left: 40%;
+    transform: translateY(-50%);
+    top: 40%;
+    transform: translateY(-50%);
 }
 
 
+
+
 /* First Section */
+/* Round 1 of styling done */
 .first_section{
-     background-color: #9abd67;
+    background-color: #9abd67;
     height: 350px;
     position: relative;
 }
 
-.first_section_text {
-    position: absolute;
-    text-align: center;
-    color: #f7f7f7;
-    top: 50%;
-    left: 0;
-    right: 0;
-}
-
-#first_h1{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-}
-
-#first_h2{
-    font-family: Droid Serif;
-    font-style: italic;
-    font-size: 13px;
+.first_section_text img {
+	display: block;
+    margin: auto;
+    margin-top: 55px;
 }
 
 #sil{
@@ -76,7 +154,6 @@ header{
     bottom: 0px;
     left: 0px;
     width: 100%;
-
 }
 
 
@@ -86,13 +163,11 @@ header{
     width:100%;
     background-color: #f7f7f7;
     position: relative;
-
-
 }
 
 .img_phone img {
     display: block;
-    margin-top: 43px;
+    padding-top: 43px;
     margin-left: 40%;
 }
 
@@ -102,7 +177,6 @@ header{
     position: relative;
     font-family: 'Source Sans Pro', sans-serif;
     color: #454545;
-
 }
 
 .who_we_are p {
@@ -112,10 +186,7 @@ header{
 #side_text{
     font-size: 18px;
     position: absolute;
-
 }
-
-
 
 .button {
     background-color: #f7f7f7;
@@ -127,13 +198,13 @@ header{
     height: 30px;
     font-size: 11px;
     margin-top: 30px;
-
-
 }
 
+/*Video Section*/
 .Video {
-    margin-top: 0px;
-	position: relative;
+    position: relative;
+    height: 262px;
+	background-image: url(images/students-video-preview.png);
     display: block;
 }
 
@@ -147,41 +218,52 @@ header{
 /*  Services Section */
 
 .Services_Section {
+    margin-top: -16px;
 	background-color: #f7f7f7;
+    height: 500px;
+    position: relative;
 }
 
 .Head_combo1 {
-    text-align: center;
-    margin-top: 40px;
-    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0px;
     position: relative;
-    font-size: 18px;
     height: 129px;
 
 }
 
-#green_text {
-    color: #acd373;
-}
 
-#sub_combo1 {
-    font-family: Droid Serif;
-    font-size: 12px;
-    text-align: center;
-}
 
 /* Three Blocks of Services */
 
 .Service_Block {
-    height: 82px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-left: -20px;
+    padding-right: 12px;
+
 }
 
-/*Noticed That My Text Is Aligned To Images Not Each Other*/
-.service_images{
+
+.service_icons_holder {
+	display: block;
     float: left;
-    margin-right: 15px;
+/*    border: 1px solid red;*/
+
+}
+
+.service_icons_holder img {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    margin-left: -10px;
+
+
+}
+
+.service_text_holder {
+        float: left;
+/*	   border: 1px solid red;*/
+        width: 285px;
+}
+
+
 }
 
 .Service_Block p {
@@ -198,12 +280,12 @@ header{
 
 .service_sub {
 	font-size: 13px;
-    padding-bottom: 100px;
 }
 
 #service_button{
-margin-left: 123px;
-    margin-bottom: 48px;
+    position: absolute;
+left: 123px;
+bottom: 48px;
 
 }
 
@@ -213,25 +295,11 @@ margin-left: 123px;
 	height: 484px;
     position: relative;
     background-color: #acd373;
-    font-family: 'Source Sans Pro', sans-serif;
-     font-weight: bold;
     color: #f7f7f7;
-    text-align: center;
-    margin-top: -16px;
-}
-
-#meet_head{
-    text-transform: uppercase;
-    padding-top: 43px;
-    font-size: 18px;
-    margin-bottom: -10px;
 
 }
 
-#meet_sub{
-font-size: 12px;
-    margin-bottom: -2px
-}
+
 
 
 
@@ -331,9 +399,6 @@ color: black;
     background-color: #f7f7f7;
 }
 
-#Recent_Work_Headline {
-	text-transform: capitalize;
-}
 
 
 #main_image{
@@ -515,20 +580,6 @@ position: absolute;
 
 .title_sub_line{
     height: 139px;
-    text-align: center;
-    color: #454545;
-}
-
-#blog_head{
-    padding-top: 35px;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-}
-
-#blog_sub{
- font-family: Droid Serif;
-    font-size: 12px;
 
 }
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>PSD Page</title>
-    <link rel="stylesheet" href="cssreset.css">
+<!--    <link rel="stylesheet" href="cssreset.css">-->
     <link rel="stylesheet" href="mycss.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
 </head>
@@ -255,8 +255,8 @@
 
          </section><!--End Blog Section-->
 
-<!--Begin Contact Section -->
-         <section class="Contact_section">
+
+<!--Begin Newsletter Section -->
              <div class="Newsletter">
                  <p id="newsletter_text">Join Our Newsletter for article Update</p>
                  <div class="example_email">
@@ -267,43 +267,41 @@
                  </div>
              </div><!-- End Newsletter Section-->
 
-             <div class="map_container">
-
+<!--Begin Map Section -->
+             <section class="map_container">
                  <img id="" src="images/map-marker_131.png" alt="map markers">
                  <P id="Map_Text">See Map Details</P>
-             </div> <!-- end map container-->
+            </section> <!-- end map container-->
 
+
+<!--Begin Contact Section -->
+    <section class="Contact_section">
              <div class="Contact_form">
                 <div class="contact_form_title">
-                 <p>CONTACT</p>
+                    <h2 id="h2_ver_3">contact</h2>
                      <img class="stupid_bars" src="images/seperator-ballline-white_63.png" alt="white seperator">
                  </div><!--End of contact form title section-->
 
-                 <div class="contact_fields">
-                     <p>Name</p>
-                        <div class="contact_text_box">
-                            <p>Carlos Shorter</p>
-                        </div>
-                 </div> <!--End of first contact field-->
+        <!--Begin Contact Form-->
+                <form>
+                    <p>Name</p>
+                        <input class="input_field" type="text" name="Name" placeholder="Carlos Shorter">
 
-                  <div class="contact_fields">
-                     <p>E-mail</p>
-                        <div class="contact_text_box">
-                            <p>shotercarlos@gmail.com</p>
-                        </div>
-                 </div> <!--End of second contact field-->
+                        <p>Email</p>
+                        <input class="input_field" type="text" name="Name" placeholder="shotercarlos@gmail.com">
+                        <p>Message</p>
+                        <textarea class="textarea" rows="4" cols="50" placeholder="Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you."></textarea>
+    <input type="button" name="" id="Contact_Send_Button" class="button" value="Send">
+                </form><!--End contact form -->
 
-                  <div class="contact_fields">
-                     <p>Message</p>
-                        <div id="message_text_area" class="contact_text_box">
-                            <p>Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you.</p>
-                                <img src="images/little-arrow-contact-form_134.png" alt="drag icon">
-                        </div>
-                 </div> <!--End of third contact field-->
-                 <input type="button" name="" id="Contact_Send_Button" class="button" value="Send">
-             </div><!--End contact form -->
 
-             <div class="footer">
+            </div><!-- End contact Section-->
+
+
+
+
+             <!--Begin Footer Section-->
+             <footer class="footer">
                  <div class="footer_social_buttons">
                      <img src="images/social-bottom-white-fb.png" alt="facebook icon">
                      <img src="images/social-bottom-white-tw.png" alt="twitter icon">
@@ -315,8 +313,8 @@
                      <img src="images/social-bottom-white-Linkin.png" alt="linkedin button">
                  </div>
                  <p> Copyright 2014. Allright Reserved</p>
-             </div> <!--End footer-->
-         </div><!-- End contact Section-->
+             </footer> <!--End footer-->
+
 
 </body>
 

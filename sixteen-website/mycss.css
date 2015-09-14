@@ -1,11 +1,11 @@
 /*Each Section is seperated and contains it's own styling */
 
 html {
-    background-color: black;
+/*    background-color: black;*/
 }
 body {
     width: 360px;
-    margin: auto;
+
 }
 div {}
 header {}

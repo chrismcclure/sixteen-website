@@ -1,19 +1,28 @@
 /*Each Section is seperated and contains it's own styling */
 
 html {
-/*    background-color: black;*/
+    background-color: black;
+        box-sizing: border-box;
 }
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
 body, html {
     width: 360px;
+    margin: auto;
+    /* This is important and is critical */
+
 
 }
 div {}
 header {}
 section {
     background-color: #f7f7f7;
+
     /* If a sction is not #f7f7f7, it will be defined in a specfic class */
 }
-
 
 /* Style all default h1, h2, h3 in document  */
 h1,
@@ -73,14 +82,9 @@ h3 {
 
 /* remove of bullet and left margin from ul */
 
-ul {
-    list-style-type: none;
+ul, li{
+
     padding: 0px;
-    padding-left: 10px;
-}
-li {
-    margin-left: 10px;
-    padding-left: 10px;
 }
 
 /* Header Section */
@@ -173,14 +177,14 @@ input:hover {
 .Video {
     position: relative;
     height: 262px;
-    background-image: url(images/students-video-preview.png);
-    display: block;
+/*   s*/
+
 }
 #playbutton {
     display: block;
     position: absolute;
     top: 96px;
-    left: 136px;
+ margin: auto;
 }
 
 /*  Services Section */
@@ -511,7 +515,6 @@ input:hover {
 }
 .image_box {
     /* Can't figure out how to get all the images in the box correctly */
-
     width: 35px;
     height: 35px;
     position: absolute;
@@ -598,7 +601,6 @@ input:hover {
 }
 
 .map_container img {
-
 	margin: auto;
 }
 
@@ -667,8 +669,6 @@ input, select, textarea{
 
 
 /* Footer Section */
-
-
 footer {
     height: 100px;
     background-color: #9abd67;

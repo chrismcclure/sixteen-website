@@ -177,6 +177,7 @@ input:hover {
 .Video {
     position: relative;
     height: 262px;
+
 /*   s*/
 
 }
@@ -512,15 +513,35 @@ input:hover {
     position: absolute;
     top: 76px;
     left: 62px;
+    display: inline-block;
 }
 .image_box {
     /* Can't figure out how to get all the images in the box correctly */
     width: 35px;
     height: 35px;
+/*
     position: absolute;
     bottom: -8px;
     left: 7px;
+*/
+    text-align: center;
+    margin-top: 4px;
+    border: 1px solid red;
 }
+.blog_entry img {
+/*
+	height: 204px;
+    width: 160px;
+*/
+}
+
+
+.image_box img {
+
+
+}
+
+
 #blog_button {
     position: absolute;
     height: 30px;
@@ -664,6 +685,9 @@ input, select, textarea{
     background-color: #9abd67;
     color:#f7f7f7;
     border: none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 

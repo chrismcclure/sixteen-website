@@ -433,6 +433,16 @@ width: 100px;
     height: 560px;
     background-image: url(images/bg-test.jpg.jpg);
 }
+
+#triangle{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 19px 19px 0;
+border-color: transparent #f2f4f7 transparent transparent;
+}
+
+
 .testimonial_quote {
     position: absolute;
     width: 300px;

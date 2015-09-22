@@ -277,11 +277,18 @@ margin-top: 10px;
 
 /* Meet Team Section */
 .Meet_Team {
-    height: 484px;
+
     position: relative;
     background-color: #acd373;
     color: #f7f7f7;
 }
+
+.employee {
+    margin: 30px 0px;
+	position: relative;
+    border: 1px solid red;
+}
+
 .white_box_text {
     height: 186px;
     width: 200px;
@@ -290,10 +297,7 @@ margin-top: 10px;
     margin: 50px 80px 0px 80px;
     padding-bottom: 10px;
 
-/*
-    left: 80px;
-    top: 177px;
-*/
+
 }
 .circle_face {
     border: 5px #acd373 solid;
@@ -305,7 +309,7 @@ margin-top: 10px;
 }
 .arrows {
     position: absolute;
-    top: 233px;
+    top: 120px
 }
 #left_arrow {
     left: 30px;
@@ -356,8 +360,7 @@ width: 100px;
     display: block;
     height: 66px;
     width: 360px;
-    position: absolute;
-    bottom: 0;
+
     background-color: #9abd67;
 }
 
@@ -391,10 +394,18 @@ width: 100px;
 	background: black;
 }
 
+
+
 /*   Recent Work Section */
 .Recent_Work_section {
-    position: relative;
-    height: 600px;
+
+}
+
+.Recent_Work_Body {
+    height: 243px;
+    width: 300px;
+    background-color: #ebebeb;
+    margin: 0px 30px 45px 30px;
 }
 #main_image {
     display: block;
@@ -421,17 +432,30 @@ width: 100px;
     margin-left: auto;
 }
 .Works_logos {
-    display: inline;
-    position: absolute;
-    bottom: 40px;
-    left: 50px;
+    height: 80px;
+    width: 360px;
+    background-color: #ebebeb;
+    margin-top: 45px;
 }
 
 /*Testimonial Section */
 .testimonial_section {
-    position: relative;
-    height: 560px;
+    padding: 60px 30px 50px 30px;
     background-image: url(images/bg-test.jpg.jpg);
+}
+
+.testimonial_holder {
+	margin-bottom: 40px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.testimonial_name_holder {
+    border: 1px solid blue;
+    display: inline-block;
+    width: 180px;
+    height: 90px;
+    vertical-align: top;
 }
 
 #triangle{
@@ -444,28 +468,31 @@ border-color: transparent #f2f4f7 transparent transparent;
 
 
 .testimonial_quote {
-    position: absolute;
     width: 300px;
     height: 85px;
     border: 2px solid #e1e2e3;
-    left: 30px;
-    top: 60px;
+    position: relative;
+
 }
+
 .testimonial_quote p {
     font-family: Droid Serif;
     font-size: 12px;
     color: #d9d5d3;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 15px;
     padding-right: 10px;
+    text-align: left;
 }
 #qoutes {
     font-family: Droid Serif;
-    position: absolute;
-    left: 270px;
-    top: 60px;
     font-size: 48.64px;
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
     color: #d9d5d3;
+    opacity: .5;
+    padding: 0px;
 }
 .triangle {
     background: url(images/ribbon.png)
@@ -473,20 +500,13 @@ border-color: transparent #f2f4f7 transparent transparent;
 .pic_name_block {
     display: block;
     width: 300px;
-    position: absolute;
-    top: 200px;
-    left: 50px;
+    border: 1px solid purple;
 }
+
 .pic_name_block img {
     border-radius: 100%;
-    float: left;
     margin-right: 20px;
-    /*
-    position: absolute;
-    top: 180px;
-    left: 30px;
-}
-*/
+
 }
 #John_Doe_Name {
     text-transform: uppercase;
@@ -494,18 +514,27 @@ border-color: transparent #f2f4f7 transparent transparent;
     color: #acd373;
     font-size: 14px;
     font-weight: bold;
+    margin: 0px;
 }
 #smash_mag {
     font-style: italic;
     font-size: 12px;
     font-family: Droid Serif;
     color: #babcbf;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.individual_testimonial {
+	border: 1px solid orange;
 }
 .circle_holder {
-    display: inline;
-    position: absolute;
-    left: 160px;
-    top: 300px;
+    display: inline-block;
+    height: 15px;
+    width: 60px;
+    margin: 0px auto;
+    border: 1px solid green;
+
 }
 .filled_circle {
     width: 10px;
@@ -524,12 +553,15 @@ border-color: transparent #f2f4f7 transparent transparent;
     border-radius: 100%;
     border: 2px solid #f7f7f7;
 }
+
+.testimonial_bottom_stuff {
+	border: 1px solid red;
+}
+
 .Test_text_block {
-    margin-left: 20px;
-    margin-right: 20px;
+
     display: block;
-    position: absolute;
-    top: 330px
+
 }
 #Testimonial_Head {
     text-transform: uppercase;
@@ -541,15 +573,33 @@ border-color: transparent #f2f4f7 transparent transparent;
     font-family: 'Source Sans Pro', sans-serif;
     color: #e3e3e4;
     font-size: 13px;
+    margin: 40px 0px;
 }
-#test_button {
-    position: absolute;
-    width: 130px;
+.Testimonial_Button {
+
+    border: 1px solid #acd373;
+    width: 118px;
     height: 30px;
-    bottom: 50px;
-    left: 30px;
+
     background: none;
+
+    bottom: 50px;
+    display: table-cell;
+    text-align: center;
+    padding-top: 3px;
+
 }
+
+.Testimonial_Button a {
+	text-decoration: none;
+    color: #acd373;
+    font: italic 11px DroidSerif;
+}
+
+.Testimonial_Button:hover {
+	background: black;
+}
+
 
 /* Blog Section */
 .blog_section {
@@ -594,8 +644,6 @@ border-color: transparent #f2f4f7 transparent transparent;
     top: 50%;
     transform: translateY(-50%);
 }
-
-
 
 #blog_button {
     position: absolute;
@@ -696,13 +744,16 @@ form input {
     width: 301px;
     height: 28px;
     background-color: #9abd67;
+    padding: 10px 10px;
 }
 form textarea {
     background: #9abd67;
     height: 84px;
     width: 302px;
+     padding: 10px 10px;
 }
 input [placeholder] {
+
     color: #f7f7f7;
     font-family: DroidSerif;
 }
@@ -781,3 +832,26 @@ footer p {
     color: #f7f7f7;
     font-family: DroidSerif;
 }
+
+
+/*
+hr{
+
+  width: 100px;
+  border: none;
+  border-top: 1px solid black;
+  position: relative;
+
+}
+
+hr:before{
+  content: "";
+  height:6px;
+  width: 6px;
+  background: black;
+  position: aboslute;
+  left: 47px;
+  border-radius: 50%;
+
+}
+*/

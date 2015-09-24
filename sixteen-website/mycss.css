@@ -91,6 +91,11 @@ li {
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+
+}
+
 .center{
 margin: 0px auto;
 }
@@ -201,8 +206,9 @@ nav {
 /*Video Section*/
 
 video {
-    position: relative;
-    height: 262px;
+
+    margin: 0px;
+
     /*   s*/
 }
 #playbutton {
@@ -525,15 +531,15 @@ border-color: transparent #f2f4f7 transparent transparent;
     text-decoration: none;
 }
 
-.individual_testimonial {
-	border: 1px solid orange;
+.individual_testimonial * {
+	outline: 1px solid transparent;
 }
 .circle_holder {
     display: inline-block;
     height: 15px;
     width: 60px;
     margin: 0px auto;
-    border: 1px solid green;
+    outline-color: green;
 
 }
 .filled_circle {
@@ -555,7 +561,7 @@ border-color: transparent #f2f4f7 transparent transparent;
 }
 
 .testimonial_bottom_stuff {
-	border: 1px solid red;
+	outline-color: red;
 }
 
 .Test_text_block {
@@ -604,27 +610,33 @@ border-color: transparent #f2f4f7 transparent transparent;
 /* Blog Section */
 .blog_section {
     position: relative;
-    height: 615px;
+    padding-bottom: 60px;
 }
 .title_sub_line {
     height: 139px;
 }
 .blog_entry {
-    display: block;
-    float: left;
-    height: 204px;
+    display: inline-block;
     Width: 160px;
-    margin-left: 15px;
-    margin-top: 15px;
+    margin-left: 13px;
+    margin-top: 13px;
     position: relative;
+    background-color: #ebebeb;
 }
-.blog_entry p {
+
+.blog_title {
+    height: 55px;
+    padding: 13px 5px 0px 5px;
+}
+
+.blog_title p {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
-    font-size: 10.3px;
-    padding-top: 14px;
+    font-weight: 600;
+    font-size: 10.93px;
+    margin: 0px;
 }
+
 .green_circle {
     width: 35px;
     height: 35px;
@@ -645,18 +657,17 @@ border-color: transparent #f2f4f7 transparent transparent;
     transform: translateY(-50%);
 }
 
-#blog_button {
-    position: absolute;
+.blog_entry a {
+    display: block;
     height: 30px;
-    width: 160px;
     background-color: #acd373;
     text-align: center;
     color: #f2f5f0;
     font-family: Droid Serif;
     font-style: italic;
     font-size: 8.33px;
-    bottom: 0px;
-    border: 1px solid #acd373;
+    padding: 9px;
+
 }
 
 /* New Letter Section */
@@ -730,9 +741,10 @@ border-color: transparent #f2f4f7 transparent transparent;
 /* Contact Section */
 .Contact_section {
     position: relative;
-    height: 450px;
+    padding-bottom: 15px;
     background-color: #acd373;
 }
+
 textarea:hover {
     background: black;
 }
@@ -752,21 +764,28 @@ form textarea {
     width: 302px;
      padding: 10px 10px;
 }
+
+form input:hover{
+background-color: black;
+}
 input [placeholder] {
 
     color: #f7f7f7;
     font-family: DroidSerif;
 }
-form p {
+form label {
     color: #f7f7f7;
     font-family: 'Source Sans Pro';
     font-size: 12px;
 }
+
 input,
 select,
 textarea {
     color: #f7f7f7;
 }
+
+
 
 #Contact_Send_Button {
     padding: 0;
@@ -781,6 +800,11 @@ textarea {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+#Contact_Send_Button:hover{
+background-color: red;
+    cursor: pointer;
 }
 
 /* Footer Section */

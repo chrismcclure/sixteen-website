@@ -48,8 +48,6 @@
     </section>
     <!-- End Who We Are Section -->
 
-    s
-
     <!--Begin Video Section-->
 
                <video controls="true"  poster="images/video-poster-students.jpg"   controls width="360" height="262"></video>
@@ -231,24 +229,27 @@
 
 
 
-                  <div class="blog">
+        <div class="blog">
                  <div class="blog_entry">
                      <img src="images/img-chairs_119.jpg" alt="chairs picture">
                      <div  class="green_circle">
-
                              <img src="images/Earth-left-top.png" alt="earth icon">
                      </div>
-                     <p>Web Design Fundamentals</p>
-                     <input type="button" name="" id="blog_button" class="button" value="Read More">
+                     <div class="blog_title">
+                         <p>Web Design Fundamentals</p>
+                     </div>
+                        <a href="#">Read More</a>
                  </div><!--End Single Blog Entry 1-->
 
                  <div class="blog_entry">
-                     <img src="images/img-beach_125.jpg" alt="beach picture">
+                     <img src="images/2.png" alt="beach picture">
                      <div  class="green_circle">
                          <img src="images/phone-top-right.png" alt="phone icon">
                      </div>
-                     <p>Web Design Fundamentals</p>
-                     <input type="button" name="" id="blog_button" class="button" value="Read More">
+                     <div class="blog_title">
+                     <p>Native Apps VS Web Apps, What is the better choice?</p>
+                     </div>
+                      <a href="#">Read More</a>
                  </div><!--End Single Blog Entry 2-->
 
                  <div class="blog_entry">
@@ -256,8 +257,11 @@
                      <div  class="green_circle">
                          <img src="images/bottom-left-blog-icon.png" alt="monitor icon">
                      </div>
-                     <p>Web Design Fundamentals</p>
-                     <input type="button" name="" id="blog_button" class="button" value="Read More">
+                     <div class="blog_title">
+                     <p>Not UI vs UX, It&#8217;s UI & UX</p>
+                     </div>
+                     <a href="#">Read More</a>
+
                  </div><!--End Single Blog Entry 3-->
 
                  <div class="blog_entry">
@@ -265,15 +269,17 @@
                      <div  class="green_circle">
                          <img src="images/bottom-right-blog-icon.png" alt="graph icon">
                      </div>
-                     <p>Web Design Fundamentals</p>
-                     <input type="button" name="" id="blog_button" class="button" value="Read More">
+                     <div class="blog_title">
+                     <p>5 Quick Tips to get approved from Gogle Adsense</p>
+                     </div>
+                      <a href="#">Read More</a>
                  </div><!--End Single Blog Entry 4-->
             </div><!--End all Blog Entries-->
 
          </section><!--End Blog Section-->
 
 
-<!--Begin Newsletter Section -->
+<!--Begin Newsletter Section THIS NEEDS TO BE FORM!!!!-->
              <section class="Newsletter">
                     <ul>
                         <li> Join Our Newsletter for article Update</li>
@@ -300,17 +306,15 @@
 
         <!--Begin Contact Form-->
         <form>
-            <p>Name</p>
-            <input class="input_field" type="text" name="Name" placeholder="Carlos Shorter">
-            <p>Email</p>
-            <input class="input_field" type="text" name="Name" placeholder="shotercarlos@gmail.com">
-            <p>Message</p>
-            <textarea class="textarea" rows="4" cols="50" placeholder="Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you."></textarea>
-            <input type="button" name="" id="Contact_Send_Button" class="button" value="Send">
+            <label for="name">Name</label>
+            <input id="name" class="input_field" type="text" name="Name" placeholder="Carlos Shorter">
+             <label for="email">E-mail</label>
+            <input id="email" class="input_field" type="email" name="email" placeholder="shotercarlos@gmail.com">
+             <label for="message">Message</label>
+            <textarea id="message" class="textarea" rows="4" cols="50" placeholder="Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you."></textarea>
+            <input type="submit" name="" id="Contact_Send_Button" class="button" value="Send">
         </form>
         <!--End contact form -->
-
-
         </div>
     </section>
         <!-- End contact Section-->

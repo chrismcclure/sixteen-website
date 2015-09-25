@@ -205,6 +205,11 @@ nav {
 
 /*Video Section*/
 
+
+.section{
+    margin: 0px;
+}
+
 video {
 
     margin: 0px;
@@ -241,23 +246,31 @@ video {
 
 
 .service_item {
-margin-top: 10px;
+margin: 0px;
     width: 280px;
-    height: 70px;
-   margin-bottom:  20px;
+    height: 65px;
+    outline: 1px solid orange;
 
+}
+
+.service_image {
+	outline: 1px solid red;
+    display: inline-block;
+    width: 50px;
 }
 
 .service_item img {
 
-    float: left;
+    display: inline-block;
 }
 
 .services_text {
 
-    width: 220px;
-    height: 60px;
-    float: right;
+    width: 210px;
+
+    display: inline-block;
+    vertical-align: top;
+    outline: 1px solid green;
 }
 
 
@@ -276,6 +289,7 @@ margin-top: 10px;
 }
 .service_sub {
     font-size: 13px;
+    margin: 0px;
 }
 
 
@@ -302,8 +316,6 @@ margin-top: 10px;
     background-color: #f7f7f7;
     margin: 50px 80px 0px 80px;
     padding-bottom: 10px;
-
-
 }
 .circle_face {
     border: 5px #acd373 solid;
@@ -325,16 +337,13 @@ margin-top: 10px;
 }
 
 
-
 #ceo_name {
-
     color: #acd373;
     font: 700 17.28px 'Source Sans Pro';
     text-transform: uppercase;
     margin: 0px;
-
-
 }
+
 #ceo_title {
     color: black;
     margin: 0px;
@@ -346,19 +355,16 @@ margin-top: 10px;
 }
 
 .ceo_social_buttons {
-      height: 30px;
-width: 100px;
-       margin: 0px auto;
-       margin-top: 20px; /*adjust space between buttons and title*/
-
+    height: 49px;
+    background-color: #ebebeb;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
 }
 
 .ceo_social_buttons img {
-
-    margin: 0px 3px;
+    margin: 10px 3px;
 }
-
-
 
 /* Hiring Section */
 
@@ -442,6 +448,14 @@ width: 100px;
     width: 360px;
     background-color: #ebebeb;
     margin-top: 45px;
+    padding: 25px 0px 20px 30px;
+
+}
+
+.Works_logos img {
+	vertical-align: middle;
+    text-align: center;
+    margin-right: 15px;
 }
 
 /*Testimonial Section */
@@ -453,7 +467,7 @@ width: 100px;
 .testimonial_holder {
 	margin-bottom: 40px;
     border: 1px solid red;
-    text-align: center;
+
 }
 
 .testimonial_name_holder {
@@ -462,6 +476,10 @@ width: 100px;
     width: 180px;
     height: 90px;
     vertical-align: top;
+}
+
+.testimonial_name_holder p {
+	text-align: left;
 }
 
 #triangle{
@@ -481,7 +499,7 @@ border-color: transparent #f2f4f7 transparent transparent;
 
 }
 
-.testimonial_quote p {
+.testimonial_quote {
     font-family: Droid Serif;
     font-size: 12px;
     color: #d9d5d3;
@@ -531,15 +549,15 @@ border-color: transparent #f2f4f7 transparent transparent;
     text-decoration: none;
 }
 
-.individual_testimonial * {
-	outline: 1px solid transparent;
+.individual_testimonial{
+	outline: 1px solid pink;
 }
 .circle_holder {
-    display: inline-block;
+
     height: 15px;
-    width: 60px;
-    margin: 0px auto;
-    outline-color: green;
+    width: 50px;
+
+    outline: 1px solid green;
 
 }
 .filled_circle {
@@ -600,6 +618,7 @@ border-color: transparent #f2f4f7 transparent transparent;
 	text-decoration: none;
     color: #acd373;
     font: italic 11px DroidSerif;
+    text-align: left;
 }
 
 .Testimonial_Button:hover {
@@ -674,68 +693,38 @@ border-color: transparent #f2f4f7 transparent transparent;
 .Newsletter {
     height: 62px;
     background-color: #acd373;
-    position: relative;
+
 }
-.Newsletter ul {
-    position: absolute;
-    left: 9px;
-    top: 20px;
-    padding: 0px;
-    margin: 0px;
-    /*
-    top: 50%;
-    transform: translateY(-100%);
-    padding: 0px;
-*/
-}
-.Newsletter ul li {
-    display: inline;
-    display: table;
-    margin: 0px;
-    padding: 0px;
-    float: left;
-}
-.Newsletter li:first-child {
-    font: 400 12px 'Source Sans Pro';
-    color: #f7f7f7;
-    margin: 0px;
-    padding-left: 9px;
-}
-.Newsletter li:nth-child(2) {
-    display: table-cell;
-    vertical-align: middle;
-    color: #f7f7f7;
-    font: italic 10px DroidSerif;
-    padding-left: 5px;
-}
+
 .example_email_holder {
     width: 111px;
     height: 24px;
     border: 1px solid #f7f7f7;
 }
 .image_holder {
-    float: left;
+
     width: 30px;
     height: 25px;
-    background-color: #f7f7f7;
+    background-color: #f7f7f7 ;
+
 }
 
 /* Map Section */
 .map_container {
-    background-image: url(images/map-bkg_130.jpg);
+    position: relative;
+    background-image: url(images/map-back_134.jpg) ;
+    height: 129px;
 }
-.map_container img {
-    display: block;
-    margin: 0px auto;
-/*    position: relative;*/
-    top: 10%;
-    transform: translateY(10%);
-}
+
 .map_container p {
     color: #f7f7f7;
+    top: 40%;
+    transform: translateY(10%);
+    position: relative;
     font: 400 13px 'Source Sans Pro';
-    margin-bottom: 0px;
+    margin: 0px;
     text-align: center;
+    z-index: 1000;
 }
 
 /* Contact Section */
@@ -763,6 +752,7 @@ form textarea {
     height: 84px;
     width: 302px;
      padding: 10px 10px;
+    resize: none;
 }
 
 form input:hover{

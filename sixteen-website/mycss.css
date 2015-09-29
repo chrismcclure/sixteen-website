@@ -22,6 +22,7 @@ html {
 section {
     background-color: #f7f7f7;
     width: 100%;
+    padding-top: 40px;
 
 }
 
@@ -42,7 +43,6 @@ h1 {
 }
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 40px;
     /*Helps align to top of previous section */
     font-size: 18px;
     text-transform: uppercase;
@@ -58,7 +58,7 @@ h3 {
 /*  Individual Styles for h2, h3, seperatebar tags */
 
 #h2_ver_1 {
-    margin-top: -40px;
+
     font-family: Droid Serif;
     font-style: italic;
     font-size: 13px;
@@ -72,6 +72,7 @@ h3 {
 #h2_ver_3 {
     color: #f7f7f7;
     margin-top: 0px;
+    margin-bottom: 5px;
 }
 #h3_ver_1 {
     color: #f7f7f7;
@@ -211,9 +212,7 @@ nav {
 }
 
 video {
-
     margin: 0px;
-
     /*   s*/
 }
 #playbutton {
@@ -227,13 +226,14 @@ video {
 
 .Services_Section {
     height: 500px;
-    padding: 0px 40px;
-    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
 .Head_combo1 {
     margin-top: 0px;
     position: relative;
-    height: 129px;
+    margin-bottom: 35px;
 }
 
 /* Three Blocks of Services */
@@ -244,48 +244,39 @@ video {
     height: 300px;
 }
 
-
 .service_item {
-margin: 0px;
-    width: 280px;
-    height: 65px;
-    outline: 1px solid orange;
-
+    margin: 0px;
+    width: 290px;
+    height: 80px;
+    margin-bottom: 20px;
 }
 
 .service_image {
-	outline: 1px solid red;
     display: inline-block;
-    width: 50px;
+    width: 45px;
+    vertical-align: top;
 }
 
 .service_item img {
-
     display: inline-block;
 }
 
 .services_text {
-
-    width: 210px;
-
+    width: 225px;
+    padding-left: 10px;
     display: inline-block;
     vertical-align: top;
-    outline: 1px solid green;
 }
 
 
 /* Don't mess with.  Font and color for services p text*/
-.Service p {
-    font-family: Droid Serif;
-    font-size: 12px;
-    margin: 0;
-    margin-left: 10px;
-}
+
 .service_head {
     text-transform: uppercase;
     color: #acd373;
     font-size: 14px;
     margin: 0px;
+    margin-bottom: 8px;
 }
 .service_sub {
     font-size: 13px;
@@ -293,20 +284,16 @@ margin: 0px;
 }
 
 
-
-
 /* Meet Team Section */
 .Meet_Team {
-
     position: relative;
     background-color: #acd373;
     color: #f7f7f7;
 }
 
 .employee {
-    margin: 30px 0px;
+    margin-top: 75px;
 	position: relative;
-    border: 1px solid red;
 }
 
 .white_box_text {
@@ -314,8 +301,7 @@ margin: 0px;
     width: 200px;
     border-radius: 3%;
     background-color: #f7f7f7;
-    margin: 50px 80px 0px 80px;
-    padding-bottom: 10px;
+    margin: 50px 80px 60px 80px;
 }
 .circle_face {
     border: 5px #acd373 solid;
@@ -327,7 +313,8 @@ margin: 0px;
 }
 .arrows {
     position: absolute;
-    top: 120px
+    top: 50%;
+    transform: translateY(-50%);
 }
 #left_arrow {
     left: 30px;
@@ -336,24 +323,27 @@ margin: 0px;
     right: 30px;
 }
 
-
-#ceo_name {
+.stupid_text {
+	text-align: center;
+    margin-top: -15px;
     color: #acd373;
     font: 700 17.28px 'Source Sans Pro';
     text-transform: uppercase;
-    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.stupid_text p {
+	margin: 0px;
 }
 
 #ceo_title {
     color: black;
-    margin: 0px;
+    text-transform: none;
+    font-weight: 600;
+    font-style: italic;
     margin-top: 10px;
-}
 
-.stupid_text {
-	text-align: center;
 }
-
 .ceo_social_buttons {
     height: 49px;
     background-color: #ebebeb;
@@ -372,7 +362,6 @@ margin: 0px;
     display: block;
     height: 66px;
     width: 360px;
-
     background-color: #9abd67;
 }
 
@@ -399,43 +388,44 @@ margin: 0px;
 	text-decoration: none;
     font: italic 11px DroidSerif;
     color: #f7f7f7;
-
 }
 
 .white_links:hover {
 	background: black;
 }
 
-
-
 /*   Recent Work Section */
 .Recent_Work_section {
-
 }
 
 .Recent_Work_Body {
     height: 243px;
     width: 300px;
     background-color: #ebebeb;
-    margin: 0px 30px 45px 30px;
+    margin: 45px 30px 45px 30px;
+}
+
+.Recent_Work_Body p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #454545;
+	margin: 0px;
+    text-align: center;
 }
 #main_image {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
+
 #leroy_themes {
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    font-weight: bold;
     text-transform: uppercase;
-    font-size: 14px;
-    color: #454545;
+    margin-top: 20px;
 }
+
 #sub_combo1 {
+    margin-top: 3px;
     font: italic 14.81px DroidSerif;
     color: #787878;
-    text-align: center;
 }
 #works_button {
     display: block;
@@ -449,7 +439,6 @@ margin: 0px;
     background-color: #ebebeb;
     margin-top: 45px;
     padding: 25px 0px 20px 30px;
-
 }
 
 .Works_logos img {
@@ -466,12 +455,9 @@ margin: 0px;
 
 .testimonial_holder {
 	margin-bottom: 40px;
-    border: 1px solid red;
-
 }
 
 .testimonial_name_holder {
-    border: 1px solid blue;
     display: inline-block;
     width: 180px;
     height: 90px;
@@ -483,54 +469,44 @@ margin: 0px;
 }
 
 #triangle{
-width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 19px 19px 0;
-border-color: transparent #f2f4f7 transparent transparent;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 19px 19px 0;
+    border-color: transparent #f2f4f7 transparent transparent;
 }
-
 
 .testimonial_quote {
     width: 300px;
     height: 85px;
-    border: 2px solid #e1e2e3;
+    border: 1px solid #e1e2e3;
     position: relative;
-
-}
-
-.testimonial_quote {
     font-family: Droid Serif;
     font-size: 12px;
     color: #d9d5d3;
-    padding-top: 5px;
-    padding-left: 15px;
-    padding-right: 10px;
+    padding: 5px  10px 0 15px;
     text-align: left;
 }
 #qoutes {
     font-family: Droid Serif;
     font-size: 48.64px;
     position: absolute;
-    right: 10px;
+    right: 18px;
     bottom: -20px;
     color: #d9d5d3;
-    opacity: .5;
-    padding: 0px;
+    opacity: .3;
+    padding: 0;
 }
-.triangle {
-    background: url(images/ribbon.png)
-}
+
 .pic_name_block {
     display: block;
     width: 300px;
-    border: 1px solid purple;
+    margin-top: 10px;
 }
 
 .pic_name_block img {
     border-radius: 100%;
     margin-right: 20px;
-
 }
 #John_Doe_Name {
     text-transform: uppercase;
@@ -538,7 +514,7 @@ border-color: transparent #f2f4f7 transparent transparent;
     color: #acd373;
     font-size: 14px;
     font-weight: bold;
-    margin: 0px;
+    margin: 17px 0px 3px 0px;
 }
 #smash_mag {
     font-style: italic;
@@ -550,68 +526,52 @@ border-color: transparent #f2f4f7 transparent transparent;
 }
 
 .individual_testimonial{
-	outline: 1px solid pink;
+    margin-bottom: 10px;
 }
 .circle_holder {
-
     height: 15px;
-    width: 50px;
-
-    outline: 1px solid green;
+    width: 60px;
 
 }
 .filled_circle {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: #f7f7f7;
     border-radius: 100%;
-    border: 2px solid #f7f7f7;
-    float: left;
-    margin: 3px;
+    border: 1px solid #f7f7f7;
+    display: inline-block;
 }
 .empty_cicle {
-    float: left;
-    width: 10px;
-    height: 10px;
-    margin: 3px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
     border-radius: 100%;
-    border: 2px solid #f7f7f7;
+    border: 1px solid #f7f7f7;
 }
 
-.testimonial_bottom_stuff {
-	outline-color: red;
-}
-
-.Test_text_block {
-
-    display: block;
-
-}
 #Testimonial_Head {
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     color: #e3e3e4;
     font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 0px;
 }
 #Testimonial_Body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #e3e3e4;
     font-size: 13px;
-    margin: 40px 0px;
+    margin: 20px 0px 25px 0px;
 }
 .Testimonial_Button {
-
     border: 1px solid #acd373;
     width: 118px;
     height: 30px;
-
     background: none;
-
     bottom: 50px;
     display: table-cell;
     text-align: center;
     padding-top: 3px;
-
 }
 
 .Testimonial_Button a {
@@ -632,8 +592,9 @@ border-color: transparent #f2f4f7 transparent transparent;
     padding-bottom: 60px;
 }
 .title_sub_line {
-    height: 139px;
+    margin-bottom: 30px;
 }
+
 .blog_entry {
     display: inline-block;
     Width: 160px;
@@ -665,7 +626,6 @@ border-color: transparent #f2f4f7 transparent transparent;
     position: absolute;
     top: 76px;
     left: 62px;
-
 }
 
 .green_circle img {
@@ -686,27 +646,43 @@ border-color: transparent #f2f4f7 transparent transparent;
     font-style: italic;
     font-size: 8.33px;
     padding: 9px;
-
 }
 
-/* New Letter Section */
+/* NewsLetter Section */
 .Newsletter {
+    padding: 15px 0px 0px 10px;
     height: 62px;
     background-color: #acd373;
-
 }
 
-.example_email_holder {
-    width: 111px;
-    height: 24px;
-    border: 1px solid #f7f7f7;
+.Newsletter form {
+	margin: 0px;
 }
-.image_holder {
 
+.Newsletter span {
+	font: 500 12px 'Source Sans Pro';
+    color: #f7f7f7;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.Newsletter input {
+	height: 25px;
+    width: 109px;
+    border: none;
+    outline: 1px solid #f7f7f7;
+    text-align: center;
+}
+
+.Newsletter input[placeholder] {
+	font: italic 8.54px DroidSerif;
+}
+
+#newsubmit{
+	height: 25px;
     width: 30px;
-    height: 25px;
-    background-color: #f7f7f7 ;
-
+    background: #f7f7f7 url(images/image-newsletter_165.png) center no-repeat;
+    margin: 0px  0px  0px -5px;
 }
 
 /* Map Section */
@@ -718,7 +694,7 @@ border-color: transparent #f2f4f7 transparent transparent;
 
 .map_container p {
     color: #f7f7f7;
-    top: 40%;
+    top: 15%;
     transform: translateY(10%);
     position: relative;
     font: 400 13px 'Source Sans Pro';
@@ -738,10 +714,11 @@ textarea:hover {
     background: black;
 }
 form {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 30px 30px 20px 30px;
+
 }
 form input {
+    margin: 5px 0px 15px 0px;
     width: 301px;
     height: 28px;
     background-color: #9abd67;
@@ -751,8 +728,9 @@ form textarea {
     background: #9abd67;
     height: 84px;
     width: 302px;
-     padding: 10px 10px;
+    padding: 10px 10px;
     resize: none;
+    margin: 5px 0px 25px 0px;
 }
 
 form input:hover{
@@ -766,7 +744,8 @@ input [placeholder] {
 form label {
     color: #f7f7f7;
     font-family: 'Source Sans Pro';
-    font-size: 12px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 input,
@@ -774,8 +753,6 @@ select,
 textarea {
     color: #f7f7f7;
 }
-
-
 
 #Contact_Send_Button {
     padding: 0;
@@ -788,8 +765,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 #Contact_Send_Button:hover{

@@ -1,7 +1,6 @@
 /*Each Section is seperated and contains it's own styling */
 
 html {
-    background-color: black;
     box-sizing: border-box;
 }
 
@@ -13,8 +12,8 @@ html {
 
 body,
 html {
-    width: 360px;
-    margin: auto;
+    width: 100%;
+    margin: 0px;
 
 }
 
@@ -151,7 +150,7 @@ nav {
 /* Second Section */
 
 .second_section {
-    height: 500px;
+
     padding: 30px;
     padding-top: 45px;
     position: relative;
@@ -163,7 +162,7 @@ nav {
 
 }
 .who_we_are {
-    margin-top: 36px;
+/*    margin-top: 36px;*/
     color: #454545;
     margin-bottom: 25px;
 }
@@ -182,6 +181,9 @@ nav {
 }
 
 
+.who-we-are-desk {
+	visibility: hidden;
+}
 
 .green_links {
 	height: 28px;
@@ -450,7 +452,7 @@ video {
 /*Testimonial Section */
 .testimonial_section {
     padding: 60px 30px 50px 30px;
-    background-image: url(images/bg-test.jpg.jpg);
+    background: url(images/bg-test.jpg.jpg) no-repeat;
 }
 
 .testimonial_holder {
@@ -688,8 +690,8 @@ video {
 /* Map Section */
 .map_container {
     position: relative;
-    background-image: url(images/map-back_134.jpg) ;
-    height: 129px;
+    background: url(images/map-back_134.jpg) no-repeat ;
+    min-height: 129px;
 }
 
 .map_container p {
@@ -769,7 +771,7 @@ textarea {
 }
 
 #Contact_Send_Button:hover{
-background-color: red;
+    background-color: red;
     cursor: pointer;
 }
 
@@ -793,6 +795,131 @@ footer p {
     bottom: 5px;
     font: 400 13px 'Source Sans Pro';
 }
+
+.site-links{
+display: none;
+}
+
+
+
+
+@media screen and (min-width : 600px) {
+
+.first_section {
+    background: url(images/1000-silet-bkg_02.png) #9abd67 no-repeat bottom;
+}
+
+.video {
+    background: url(images/1000-video-poster_04.png) center no-repeat ;
+    min-height: 523px;
+}
+
+video{
+    visibility: hidden;
+}
+
+.map_container {
+	background-image: url(images/1000-map-bgk.jpg);
+}
+
+.testimonial_section {
+	background-image: url(images/1000-test-bkg_04.jpg);
+}
+
+.map_container {
+    background: url(images/1000-map-bgk.jpg) center no-repeat ;
+    min-height: 500px;
+}
+
+.blog{
+    text-align: center;
+}
+
+.second_section img {
+	float: right;
+}
+
+
+@media screen and (min-width :1000px) {
+    body {
+        font-size: 18px;
+    }
+    header {
+        height: 105px
+    }
+    .logo {
+        margin-top: 25px
+    }
+    .logo img {
+        height: auto
+    }
+    nav {
+        width: auto;
+        height: 100%;
+        background: transparent
+    }
+    .site-links {
+        display: block;
+    }
+    .site-links a {
+        color: #f7f7f7;
+        font-size: 1em;
+        font-weight: 900;
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 105px;
+        margin-right: 30px;
+    }
+
+.second_section {
+	padding: 40px 100px;
+}
+
+.who-we-are-desk-container {
+	display: block;
+    width: 770px;
+
+}
+.who-we-are-mobile {
+	visibility: hidden;
+}
+.who-we-are-desk {
+	visibility: visible;
+}
+
+
+}
+
+
+@media screen and (min-width : 1400px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  This is to change the color of the placeholder on different broswers */
 ::-webkit-input-placeholder {
